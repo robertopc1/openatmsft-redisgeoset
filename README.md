@@ -2,15 +2,20 @@
 
 This is the publicly available repo containing the tutorial and links for the Open@Microsoft Geoset video.
 
-**Prerequisites**
+## Prerequisites
 
 - Redis Insight
   - https://redis.com/redis-enterprise/redis-insight/
 
-**Steps**
+## Steps
 
 1. Create a zip file of the folder geoset-tutorial.
 1. Open Redis Insight and click upload tutorial button.
 ![Redis Insight](./images/redis-insight.png)
 1. Click *"Select or drop a file"* and upload the zipped file created on Step 1.
 1. Click Submit and follow the tutorial.
+
+## Resources
+
+- https://university.redis.com/courses/ru101/
+- https://github.com/redis-developer/brewdis
