@@ -9,7 +9,7 @@ You can find the full list of commands [here](https://redis.io/commands/?group=g
 
 Add a few drivers to Geoset
 
-```redis Add Locations
+```redis Add locations
 
 GEOADD drivers -81.379234 28.538336 driver1
 GEOADD drivers -81.407570 28.291956 driver2
@@ -53,4 +53,14 @@ Delete driver inside geo set
 ```redis Delete driver
 
 ZREM drivers driver1
+
+```
+
+Delete key with DEL or UNLINK command
+
+```redis Delete key
+
+DEL drivers
+UNLINK drivers
+
 ```
